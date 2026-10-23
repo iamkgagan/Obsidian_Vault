@@ -1,7 +1,3 @@
-Here is the single-sentence definition for each concept in the sequential learning order:
-
-  
-
 ### Phase 1: Core Foundations & Scripting
 
 - **Linux:** An open-source, Unix-like operating system that serves as the primary backbone for hosting modern cloud, server, and container environments.
