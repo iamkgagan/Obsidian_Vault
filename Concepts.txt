@@ -1,0 +1,97 @@
+Here is a comprehensive breakdown of the concepts, grouped by technical domain for clarity and quick reference:
+
+---
+
+### 1. Backend & .NET Ecosystem
+
+* **C#:** A modern, object-oriented, type-safe programming language developed by Microsoft, primarily used within the .NET ecosystem.
+* **LINQ (Language Integrated Query):** A .NET feature that embeds query capabilities directly into C# syntax for querying collections, databases, and XML.
+*  .NET Core: A cross-platform, high-performance, open-source framework built by Microsoft for developing modern cloud-based and device applications.
+*  .NET Core MVC & Web API: Frameworks within .NET used to build web applications following the Model-View-Controller architectural pattern and RESTful HTTP services.
+* **Identity Framework:** An extensible membership system for ASP.NET Core that manages user logins, roles, claims, and security tokens.
+
+---
+
+### 2. Databases & Data Access
+
+* **SQL Server & PostgreSQL:** Popular relational database management systems (RDBMS)—SQL Server is Microsoft's enterprise database, while PostgreSQL is a powerful, open-source object-relational database.
+* **Stored Procedures:** Precompiled collections of SQL statements and optional control-flow logic stored directly on the database server.
+* **EF Core (Entity Framework Core):** Microsoft's lightweight, extensible, open-source Object-Relational Mapper (ORM) for .NET.
+* **Dapper (Micro-ORM):** A high-performance, lightweight object mapper for .NET that extends `IDbConnection` for fast raw SQL execution.
+* **ADO.NET:** A foundational set of .NET components used to connect to, retrieve, and manipulate data from relational databases.
+* **SSRS (SQL Server Reporting Services):** A server-based report generation service by Microsoft used for deploying and managing paginated enterprise reports.
+
+---
+
+### 3. Architecture, Design & APIs
+
+* **REST API & SOAP API:** Architectural styles for web services—REST uses lightweight JSON and standard HTTP methods, whereas SOAP relies on strict XML protocols and envelopes.
+* **SOLID Principles:** Five core design principles (Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion) aimed at making software more maintainable and flexible.
+* **Dependency Injection & IoC:** Design patterns implementing Inversion of Control (IoC) to achieve loose coupling by injecting dependencies into classes rather than having them instantiated internally.
+* **Design Patterns:** Reusable, proven architectural solutions to common software design problems (e.g., Singleton, Factory, Observer).
+* **Clean Architecture:** A software design philosophy emphasizing separation of concerns into concentric layers, keeping core business logic independent of external frameworks, databases, and UI.
+* **CQRS & Mediator Pattern:** CQRS separates read and write operations for data stores; the Mediator pattern (often implemented via MediatR) encapsulates object interactions to reduce direct dependencies.
+* **Microservices:** An architectural style that structures an application as a collection of loosely coupled, independently deployable services.
+* **System Design:** The process of defining the architecture, components, modules, interfaces, and data flows for a complex software system to meet specific functional and non-functional requirements.
+
+---
+
+### 4. Frontend & Mobile
+
+* **React & Redux:** React is a popular JavaScript library for building user interfaces; Redux is a predictable state container commonly paired with React for managing application state.
+* **Angular:** A robust, TypeScript-based web application framework maintained by Google.
+* **Micro-Frontends:** An architectural pattern that extends microservices concepts to the frontend, allowing independent teams to build and deploy separate frontend features.
+* **.NET MAUI (Multi-platform App UI):** Microsoft's cross-platform framework for building native mobile and desktop apps using C# and XAML.
+
+---
+
+### 5. Version Control, OS & Scripting
+
+* **Git:** A distributed version control system used to track code changes and manage collaboration among developers.
+* **GitHub:** A cloud-based platform for hosting Git repositories, providing code review, project management, and built-in CI/CD pipelines.
+* **Linux:** An open-source Unix-like operating system kernel widely utilized for servers, cloud infrastructure, and containers.
+* **PowerShell / Scripting:** Microsoft's task automation and configuration management framework, consisting of a command-line shell and scripting language.
+
+---
+
+### 6. Testing & Security
+
+* **xUnit:** A free, open-source, community-focused unit testing framework for the .NET ecosystem.
+* **JWT & OAuth:** JSON Web Tokens (JWT) securely transmit claims between parties; OAuth is an open standard authorization framework providing secure token-based delegation.
+* **SAST and DAST Security Tools:** Static Application Security Testing analyzes source code for vulnerabilities early; Dynamic Application Security Testing evaluates running applications for security flaws externally.
+
+---
+
+### 7. Containers & CI/CD DevOps
+
+* **Docker:** A platform that packages applications and their dependencies into lightweight, portable containers to ensure consistent execution across environments.
+* **GitHub Actions:** A CI/CD platform native to GitHub that automates build, test, and deployment workflows directly from repositories.
+* **Jenkins:** An open-source automation server widely used for orchestrating complex CI/CD pipelines.
+* **Azure DevOps & Cloud Integration:** A suite of Microsoft development tools providing version control, reporting, project tracking, and CI/CD pipelines.
+
+---
+
+### 8. Cloud, Infrastructure & Orchestration
+
+* **Azure Fundamentals & Core Services:** Microsoft's cloud computing platform and its foundational building blocks for compute, storage, networking, and identity.
+* **AWS (Amazon Web Services):** The world's most comprehensive and broadly adopted cloud platform, offered by Amazon.
+* **Terraform (IaC):** HashiCorp's Infrastructure as Code tool that allows developers to define and provision cloud resources using declarative configuration files.
+* **Ansible:** An open-source software provisioning, configuration management, and application deployment tool.
+* **Kubernetes:** An open-source container orchestration platform for automating deployment, scaling, and management of containerized workloads.
+* **Helm (Kubernetes Package Manager):** A package manager for Kubernetes that simplifies deploying and managing applications using charts.
+* **ArgoCD (GitOps):** A declarative, GitOps continuous delivery tool tailored for Kubernetes environments.
+
+---
+
+### 9. Messaging & Streaming
+
+* **Apache Kafka (Core):** An open-source distributed event streaming platform designed for high-throughput, fault-tolerant real-time data pipelines and streaming analytics.
+* **Schema Registry & Kafka Connect:** Schema Registry enforces data contracts (e.g., Avro) across Kafka events; Kafka Connect provides a scalable framework for integrating Kafka with external databases and systems.
+
+---
+
+### 10. Observability & Platform Engineering
+
+* **Prometheus & Grafana:** Prometheus is an open-source monitoring and time-series metrics alerting system; Grafana is an analytics and visualization platform used to build interactive dashboards.
+* **OpenTelemetry & Grafana Loki:** OpenTelemetry is a vendor-neutral framework for gathering traces, metrics, and logs; Loki is a horizontally scalable, cost-effective log aggregation system designed by Grafana Labs.
+* **Platform Engineering & IDPs:** Platform Engineering builds Internal Developer Platforms (IDPs)—centralized self-service portals and toolchains—designed to reduce cognitive load and accelerate developer velocity.
